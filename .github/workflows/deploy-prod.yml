@@ -1,1 +1,11 @@
 # deproy on production
+name: Deploy to staging
+
+on:
+  push:
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "username"
